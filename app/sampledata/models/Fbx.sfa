@@ -1,0 +1,101 @@
+{
+  materials: [
+    {
+      name: 'Chrome',
+      parameters: [
+        {
+          baseColor: [
+            0.078431000000000001,
+            0.078431000000000001,
+            0.078431000000000001,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Fabric',
+      parameters: [
+        {
+          baseColor: [
+            0.86666699999999997,
+            0.83921599999999996,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'texture_B&B_bump',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/Fbx.FBX',
+    name: 'Fbx',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/texture_B&B_bump.jpg',
+      name: 'texture_B&B_bump',
+      pipeline_name: 'E:\\B&B\\texture_B&B_bump.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
